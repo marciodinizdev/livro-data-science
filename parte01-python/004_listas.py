@@ -27,3 +27,5 @@ print(f'Lista de carros completa: {carros}')
 print(f'Carro popular: {carros[0][0]}')
 print(f'Carro popular: {carros_populares[0]}')
 print(carros[0][0] == carros_populares[0])
+
+print(len(carros_populares))
