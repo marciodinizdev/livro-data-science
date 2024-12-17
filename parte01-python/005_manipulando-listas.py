@@ -58,6 +58,6 @@ print(f'Realizando uma cópia da lista inteira: {numeros_copia}')
 numeros_copia_pulando2 = numeros[1:-1:2]
 print(f'Realizando uma cópia da lista inteira pulando de 2 em 2 números: {numeros_copia_pulando2}')
 
-# OBS: a notação padrão de slicing usa intervalos abertos da matemática [1:-1], ou seja, os elemntos delimitadores do intervalo (primeiro e último) são excluídos, porém permanece a lista completa se nenhum elemento for adicionado [:]
+# OBS: a notação padrão de slicing usa intervalos abertos e fechados da matemática [1:-1], sendo abertos à direita e fechados à esquerda, ou seja, o primeiro elemento é sempre incluído (intervalo fechado à esquerda) e o último é excluído (intervalo aberto à direita). A lista completa permanece se nenhum elemento delimitador for adicionado [:]
 
 # OBS2: O padrão de slice usa o formato: lista[inicio : fim : salto], quando o salto não é especificado, como na variável sem_os_extremos = numeros[1:-1], ele é considerado 1, já na variável sem_os_extremos_pulando2 = numeros[1:-1:2], o valor do salto é especificado como 2
