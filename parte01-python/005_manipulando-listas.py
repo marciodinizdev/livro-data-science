@@ -1,31 +1,34 @@
-# # Extendendo Listas
-# usuarios = []
-# usuarios_informatica = ["Anderson", "Bruno", "Carlos"]
-# usuarios_contabilidade = ["Denise", "Edna", "Franciele"]
+# Extendendo Listas
+usuarios = []
+usuarios_informatica = ["Anderson", "Bruno", "Carlos"]
+usuarios_contabilidade = ["Denise", "Edna", "Franciele"]
 
-# print("Lista vazia: ", usuarios)
-# print("Usuários de informática: ", usuarios_informatica)
-# print("Usuários de contabilidade: ", usuarios_contabilidade)
+print("Lista vazia: ", usuarios)
+print("Usuários de informática: ", usuarios_informatica)
+print("Usuários de contabilidade: ", usuarios_contabilidade)
 
-# print("- Unindo as listas - \nPrimeiro, testando com Informática:")
-# usuarios.extend(usuarios_informatica)
-# print(usuarios)
+print("- Unindo as listas - \nPrimeiro, testando com Informática:")
+usuarios.extend(usuarios_informatica)
+print(usuarios)
 
-# print("Agora adicionando Contabilidade:")
-# usuarios.extend(usuarios_contabilidade)
-# print(usuarios)
+print("Agora adicionando Contabilidade:")
+usuarios.extend(usuarios_contabilidade)
+print(usuarios)
 
-# # Inserindo elementos no meio de uma lista
-# ferramentas = ["Alicate", "Prego", "Parafuso"]
-# print("Lista inicial de ferramentas: ", ferramentas)
-# ferramentas.insert(2, "Martelo")
-# print("Lista nova de ferramentas: ", ferramentas)
-# ferramentas.insert(0, "Chave estrela")
-# print("Lista final de ferramentas: ", ferramentas)
+# Inserindo elementos no meio de uma lista
+ferramentas = ["Alicate", "Prego", "Parafuso"]
+print("Lista inicial de ferramentas: ", ferramentas)
+ferramentas.insert(2, "Martelo")
+print("Lista nova de ferramentas: ", ferramentas)
+ferramentas.insert(0, "Chave estrela")
+print("Lista final de ferramentas: ", ferramentas)
 
-# # Ordenando elementos da lista
-# ferramentas.sort()
-# print("Lista ordenada de ferramentas: ", ferramentas)
+# Ordenando elementos da lista
+ferramentas.sort()
+print("Lista ordenada de ferramentas: ", ferramentas)
+
+##########################################
+print('\n-Tópico 2-\n')
 
 # Fatiando listas
 numeros = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
