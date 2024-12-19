@@ -18,3 +18,9 @@ print(f'Preço do produto: R$ {produto["preco"]:.2f}')
 produto['preco'] = 19.901
 print('Alterando preço do produto...')
 print(f'Novo preço do produto: {produto["preco"]:.2f}')
+
+# Testando a existência de valores
+produto_tem_preco = 'preco' in produto 
+produto_tem_estoque = 'estoque' in produto
+print('Existe a chave "preco" no produto?', produto_tem_preco)
+print('Existe a chave "estoque" no produto?', produto_tem_estoque)
