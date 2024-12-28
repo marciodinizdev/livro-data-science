@@ -15,8 +15,16 @@ resultado = 1 # inicializa o valor do produtório com 1
 while contador < n:
     contador = contador + 1
     resultado = resultado * contador
-    print(contador, end=" ") # imprime o valor atual do contador a cada execução e o end=" " previne a quebra de linha entre os valores
+    print(contador, end=" ") # imprime o valor atual do contador a cada execução e o end=" " previne a quebra de linha entre os valores e os separa com espaços (poderia separar por vírgula usando end=",")
 
 print(f'\nContador = {contador}')
 print(f'produtório = {resultado}')
 
+# Uma cláusula else pode ser adicionada caso qeira explicitar o que acontece após a condição de parada
+
+x = 0
+while x < 10:
+    print(f'x = {x}')
+    x = x + 1 # não exqueça de incrementar algo
+else: # x deixou de ser menor que 10
+    print(f'x = {x}. Programa encerrado!')
