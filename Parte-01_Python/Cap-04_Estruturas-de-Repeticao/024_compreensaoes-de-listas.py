@@ -1,5 +1,4 @@
-# Especificando precisamente listas em conjuntos algébricos
-
+### Especificando precisamente listas em conjuntos algébricos
 print('Entendendo List Comprehensions:')
 
 # Imprimindo uma lista c1 formada por um conjunto de números de 0 até 3 elevados ao cubo
@@ -16,3 +15,15 @@ print(c2)
 print('x | -20<=x<=40 e x é ímpar')
 c3 = [x * 2 + 1 for x in range(-10, 20)]
 print(c3, sep='')
+
+### É comum usar _ quando não for preciso usar o valor de uma variável de uma lista
+
+# Exemplo: primos = [False for _ in numeros]
+
+### É possível usar loops aninhados com List Comprehensions
+numeros = [
+    (p1, p2) 
+    for p1 in range(7)
+    for p2 in range(7)
+]
+print(f'Pares criados: {numeros}', sep='')
