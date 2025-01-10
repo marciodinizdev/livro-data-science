@@ -12,6 +12,7 @@ for x in range(2000, 5000, 2):
 
 #3
 print('Crivo de Eratóstenes para encontrar números primos entre 0 e 100:')
+
 import math
 
 numeros = []
