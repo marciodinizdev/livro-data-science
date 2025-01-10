@@ -1,6 +1,4 @@
-### Typecast: 
-
-## Função int()
+### Função int()
 
 # Convertendo string em int
 a = '123'
