@@ -1,5 +1,7 @@
 ### Uma função é um bloco de código que executa uma tarefa específica e serve para organizar o código e reutilizar o código
 
+## Obs 1: As funções personalizadas são definidas com a palavra reservada def seguida do nome da função e dos parâmetros entre parênteses.
+
 # Definindo uma função personalizada que soma dois números
 def soma(a, b):
 
@@ -37,3 +39,5 @@ print(fatorial(5)) # Calcula o fatorial de 5
 print(delta(1, 5, 6)) # Calcula o delta da equação de segundo grau com a = 1, b = 5 e c = 6
 print(eh_primo(7)) # Verifica se 7 é um número primo
 print(eh_primo(10)) # Verifica se 10 é um número primo
+
+# Obs 2: A instrução return finaliza a execução da função e retorna um valor para o local onde a função foi chamada.
