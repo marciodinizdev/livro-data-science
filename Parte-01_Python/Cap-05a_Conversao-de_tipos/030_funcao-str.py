@@ -3,27 +3,27 @@
 # Convertendo um número inteiro em string
 numero_inteiro = 123
 numero_como_string = str(numero_inteiro)
-print(numero_como_string)  # Saída: '123'
+print(numero_como_string) 
 
 # Convertendo um número float em string
 numero_flutuante = 123.45
 numero_como_string = str(numero_flutuante)
-print(numero_como_string)  # Saída: '123.45'
+print(numero_como_string)
 
 # Convertendo um valor booleano em string
 valor_booleano = True
 valor_como_string = str(valor_booleano)
-print(valor_como_string)  # Saída: 'True'
+print(valor_como_string)
 
 # Convertendo uma lista em string
 lista = [1, 2, 3]
 lista_como_string = str(lista)
-print(lista_como_string)  # Saída: '[1, 2, 3]'
+print(lista_como_string)
 
 # Convertendo um dicionário em string
 dicionario = {'chave': 'valor'}
 dicionario_como_string = str(dicionario)
-print(dicionario_como_string)  # Saída: "{'chave': 'valor'}"
+print(dicionario_como_string)
 
 # Convertendo uma número em string dentro de uma string
 codigo = 300

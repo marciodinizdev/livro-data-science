@@ -1,0 +1,23 @@
+### A função set() serve para criar um conjunto a partir de uma lista, string ou tupla
+
+# Criando um conjunto a partir de uma lista
+lista = [1, 2, 3, 4, 5, 5, 6, 7, 8, 9, 9]
+conjunto1 = set(lista)
+print(f'Convertendo-se {lista} para conjuntos: {conjunto1}')
+
+# Criando um conjunto a partir de uma string
+string = "abracadabra"
+conjunto2 = set(string)
+print(f'Convertendo-se {string} para conjuntos: {conjunto2}') 
+
+# Criando um conjunto vazio
+conjunto_vazio = set()
+print(f'Conjunto vazio: {conjunto_vazio}')
+
+# Removendo duplicatas de uma lista usando set
+lista_com_duplicatas = [1, 2, 2, 3, 4, 4, 5]
+lista_sem_duplicatas = list(set(lista_com_duplicatas))
+print(f'Lista com duplicatas: {lista_com_duplicatas}')
+
+# Obs 1: Conjuntos não aceitam elementos duplicados
+# Obs 2: Conjuntos não possuem ordem
