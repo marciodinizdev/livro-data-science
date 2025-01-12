@@ -22,6 +22,7 @@ print(capacidade(2, 1, 1.5))
 
 #3 - Calculando o consumo total de combustível
 def consumo_total(distancia_km, consumo_km_litro):
-    consumo_total = distancia_km / consumo_km_litro
-    return f'O consumo total de combistível é de {consumo_total} litros'
-print(consumo_total(500, 12))
+    resultado = distancia_km / consumo_km_litro
+    print(f'O consumo total de combistível é de {resultado} litros')
+    return resultado
+consumo_total(500, 12)
