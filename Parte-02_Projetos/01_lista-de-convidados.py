@@ -8,7 +8,7 @@ Programa que recebe nomes de convidados para uma festa e os armazena em uma list
 '''
 convidados = []
 while True:
-    nome = input('Digite o nome do convidado ou "sair" para encerrar: ')
+    nome = input('Digite o nome do convidado ou "sair" para encerrar: ').capitalize()
     if nome.lower() == 'sair':
         break
     convidados.append(nome)
