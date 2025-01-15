@@ -1,3 +1,10 @@
+'''
+Programa para criar uma lista de tarefas com as condições:
+
+1 -> O usuário deve ser capaz de adicionar uma tarefa, marcar como concluída ou removê-la.
+2 -> O programa deve exibir a lista completa com as tarefas organizadas em "Concluídas" e "Pendentes".
+
+'''
 tarefas_pendentes = ['Estudar']
 tarefas_concluidas = ['Trabalhar']
 lista_de_tarefas = tarefas_pendentes + tarefas_concluidas  # Lista completa unificada para exibição
