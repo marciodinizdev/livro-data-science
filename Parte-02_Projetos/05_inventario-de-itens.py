@@ -20,7 +20,7 @@ while True:
         item = input('Digite o nome do item que deseja adicionar: ').capitalize()
         if item in inventario:
             print(f'{item} já está no inventário.\n')
-        else: 
+        else:
             inventario.append(item)
             print(f'{item} foi adicionado ao inventário!\n')
     elif opcao == '2':
